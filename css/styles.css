@@ -1,0 +1,375 @@
+body {
+    font-family:'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+/*logo*/
+.wort-logo {
+    text-decoration: none;
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.top-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
+}
+
+.link-logo {
+    text-decoration: none;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    gap: 40px;
+}
+
+/*Шапка сайта.Навігація*/
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.header-navigetion {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* .header-list .header-ithem:not(:last-child) {
+    margin-right: 40px;
+} 
+oder */
+/* .header-list .header-ithem + .header-ithem {
+    margin-left: 40px;
+} */
+
+.header-ithem a {
+    display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-ithem a:hover,
+.header-ithem a:focus {
+    color: #404bbf;
+}
+
+.header-addres a:hover,
+.header-addres a:focus {
+    color: #404bbf;
+}
+
+.heder-ithem:hover,
+.heder-ithem:focus {
+    color: #404BBF;
+}
+
+.header-address-list {
+    display: flex;
+
+    font-style: normal;
+    color: #2E2F42;
+    gap: 40px;
+  }
+
+/* .header-address-list .header-addres + .header-addres {
+    margin-left: 40px;
+} */
+
+.header-address {
+    font-style: normal;
+}
+
+.header-addres {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.link :hover, 
+.link :focus {
+    color: #404BBF;
+}
+
+section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
+}
+/*Hero*/
+
+.hero-subject {
+    font-size: 56px;   
+    font-weight: 700;
+    background-color: #2e2f42;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+}
+
+.hero {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0 188px;
+    align-items: center;
+    margin:auto 0;
+}
+
+.hero-btn {
+    display: block;
+    color: #FFFFFF;
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color:#404BBF;
+}
+
+.p {
+    color:#434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;margin: 0;
+}
+
+.feature-ithem {
+    width: calc((100% - 72px) / 4);
+}
+.feature-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 0;
+}
+
+.visually-hidden {
+    /* font-size: 36px;
+    line-height: 1.11;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0; */
+        position: absolute;
+        width: 1px;
+        height: 1px; 
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;  
+}
+
+.feature-subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.feature-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.team {
+    background-color: #F4F4FD;
+ }
+
+.team-title {
+    font-size: 36px;
+    color: #2e2f42;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+}    
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.cards-team {
+    padding: 32px 0;
+}
+
+.team-image {
+    display: block;
+}
+
+.team-name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.portfolio {
+    text-transform: capitalize;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.portfolio-subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.cards-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+
+.portfolio-image {
+    display: block;
+    margin: 0;
+}
+
+.footer {
+    background-color:#2E2F42;
+    padding: 100px 0;
+}
+
+.footer-text {
+    width: 264px;
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
