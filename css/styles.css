@@ -99,10 +99,12 @@ oder */
 .header-ithem {
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .underlining {
     position: relative;
     color: #404bbf;
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .underlining::after {
@@ -156,6 +158,7 @@ oder */
     padding-bottom: 24px;
     gap: 40px;
     margin: 0 auto;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link :hover, 
@@ -513,9 +516,9 @@ padding-bottom: 120px;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.timing {
+/* .timing {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .cards-portfolio {
     padding: 32px 16px;
