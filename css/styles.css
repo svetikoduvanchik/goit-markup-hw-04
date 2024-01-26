@@ -86,7 +86,7 @@ oder */
     margin-left: 40px;
 } */
 
-.header-ithem a {
+.link-nav {
     display: block;
     font-weight: 500;
     line-height: 1.5;
@@ -94,17 +94,17 @@ oder */
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-ithem {
+.header-item {
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.underlining {
+.underlining.link-nav {
     position: relative;
     color: #404bbf;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .underlining::after {
@@ -117,12 +117,11 @@ oder */
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 
-.header-ithem a:hover,
-.header-ithem a:focus {
+.link-nav:hover,
+.link-nav:focus {
     color: #404bbf;
 }
 
@@ -131,23 +130,28 @@ oder */
     color: #404bbf;
 }
 
-.heder-ithem:hover,
-.heder-ithem:focus {
+.heder-item:hover,
+.heder-item:focus {
     color: #404BBF;
+}
+.link-nav:active {
+    color: #404bbf;
 }
 
 .header-address-list {
     display: flex;
-
     font-style: normal;
     color: #2E2F42;
     gap: 40px;
-  }
+}
 
 /* .header-address-list .header-addres + .header-addres {
     margin-left: 40px;
 } */
 
+.address-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header-address {
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
